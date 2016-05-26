@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name GotT_Translation_Circuit)(type KiCad)(uri "$(KIPRJMOD)/GotT_Translation_Circuit.pretty")(options "")(descr ""))
+)

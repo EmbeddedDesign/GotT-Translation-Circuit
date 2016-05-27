@@ -1,5 +1,5 @@
-# GotT Dalek Voice Modulator 
-A Bluetooth Voice modulator for Daleks.
+# GotT Translation Circuit 
+A Bluetooth voice modulator for Daleks
 
 ## FAQ
 

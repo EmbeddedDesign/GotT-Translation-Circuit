@@ -1,1 +1,355 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:GotT_Translation_Circuit
+LIBS:GotT_Translation_Circuit-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "GotT Translation Circuit Schematic"
+Date "2016-05-26"
+Rev "0.1"
+Comp "Noctivore"
+Comment1 "Designed by Ops"
+Comment2 "Bluetooth voice modulator"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L WT32i U1
+U 1 1 57468E7D
+P 3100 2350
+F 0 "U1" H 2350 3600 60  0000 C CNN
+F 1 "WT32i" H 3100 2350 60  0000 C CNN
+F 2 "GotT_Translation_Circuit:WT32i" H 3100 2150 60  0001 C CNN
+F 3 "" H 3100 2150 60  0000 C CNN
+	1    3100 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Stereo_Audio_Jack_3.5mm P1
+U 1 1 57469181
+P 2900 6150
+F 0 "P1" H 2500 6350 60  0000 C CNN
+F 1 "Stereo_Audio_Jack_3.5mm" H 2850 6000 60  0000 C CNN
+F 2 "GotT_Translation_Circuit:CUI_Stereo_Audio_Jack" H 2750 5950 60  0001 C CNN
+F 3 "" H 2750 5950 60  0000 C CNN
+	1    2900 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 57476338
+P 2150 7550
+F 0 "#PWR01" H 2150 7300 50  0001 C CNN
+F 1 "GND" H 2150 7400 50  0000 C CNN
+F 2 "" H 2150 7550 50  0000 C CNN
+F 3 "" H 2150 7550 50  0000 C CNN
+	1    2150 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR02
+U 1 1 57476356
+P 2150 7150
+F 0 "#PWR02" H 2150 7000 50  0001 C CNN
+F 1 "+3V3" H 2150 7290 50  0000 C CNN
+F 2 "" H 2150 7150 50  0000 C CNN
+F 3 "" H 2150 7150 50  0000 C CNN
+	1    2150 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R2
+U 1 1 57476374
+P 3050 5450
+F 0 "R2" H 3080 5470 50  0000 L CNN
+F 1 "R_Small" H 3080 5410 50  0000 L CNN
+F 2 "" H 3050 5450 50  0001 C CNN
+F 3 "" H 3050 5450 50  0000 C CNN
+	1    3050 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C1
+U 1 1 574763B1
+P 2600 4850
+F 0 "C1" H 2610 4920 50  0000 L CNN
+F 1 "C_Small" H 2610 4770 50  0000 L CNN
+F 2 "" H 2600 4850 50  0001 C CNN
+F 3 "" H 2600 4850 50  0000 C CNN
+	1    2600 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_OTG P2
+U 1 1 57476408
+P 6500 3950
+F 0 "P2" H 6825 3825 50  0000 C CNN
+F 1 "USB_OTG" H 6500 4150 50  0000 C CNN
+F 2 "" V 6450 3850 50  0001 C CNN
+F 3 "" V 6450 3850 50  0000 C CNN
+	1    6500 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FUSE F1
+U 1 1 57476553
+P 4550 4000
+F 0 "F1" H 4650 4050 50  0000 C CNN
+F 1 "FUSE" H 4450 3950 50  0000 C CNN
+F 2 "" H 4550 4000 50  0001 C CNN
+F 3 "" H 4550 4000 50  0000 C CNN
+	1    4550 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Led_Small D2
+U 1 1 57476625
+P 5300 5600
+F 0 "D2" H 5250 5725 50  0000 L CNN
+F 1 "Led_Small" H 5125 5500 50  0000 L CNN
+F 2 "" V 5300 5600 50  0001 C CNN
+F 3 "" V 5300 5600 50  0000 C CNN
+	1    5300 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small D1
+U 1 1 574766B2
+P 1550 3800
+F 0 "D1" H 1500 3880 50  0000 L CNN
+F 1 "D_Small" H 1400 3720 50  0000 L CNN
+F 2 "" V 1550 3800 50  0001 C CNN
+F 3 "" V 1550 3800 50  0000 C CNN
+	1    1550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 57476D4D
+P 8300 6450
+F 0 "#PWR03" H 8300 6200 50  0001 C CNN
+F 1 "GND" H 8300 6300 50  0000 C CNN
+F 2 "" H 8300 6450 50  0000 C CNN
+F 3 "" H 8300 6450 50  0000 C CNN
+	1    8300 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MK20DX256VLH7 U4
+U 1 1 5747719D
+P 9250 4250
+F 0 "U4" H 8450 6450 60  0000 C CNN
+F 1 "MK20DX256VLH7" H 9250 4250 60  0000 C CNN
+F 2 "GotT_Translation_Circuit:NXP_64-LQFP" H 9250 5150 60  0001 C CNN
+F 3 "" H 9250 5150 60  0000 C CNN
+	1    9250 4250
+	1    0    0    -1  
+$EndComp
+Text Label 8150 6050 2    60   ~ 0
+RESET
+$Comp
+L GND #PWR04
+U 1 1 5747749D
+P 6300 5950
+F 0 "#PWR04" H 6300 5700 50  0001 C CNN
+F 1 "GND" H 6300 5800 50  0000 C CNN
+F 2 "" H 6300 5950 50  0000 C CNN
+F 3 "" H 6300 5950 50  0000 C CNN
+	1    6300 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 5700 7950 5700
+Wire Wire Line
+	8350 5900 8150 5900
+Connection ~ 8150 5900
+Wire Wire Line
+	8350 6100 8300 6100
+Wire Wire Line
+	8350 6200 8300 6200
+Connection ~ 8300 6200
+Wire Wire Line
+	8350 6300 8300 6300
+Connection ~ 8300 6300
+Wire Wire Line
+	7950 5500 8350 5500
+Wire Wire Line
+	7950 5400 8350 5400
+Wire Wire Line
+	7950 5300 8350 5300
+Wire Wire Line
+	7950 5600 8000 5600
+Wire Wire Line
+	8000 5600 8000 5700
+Connection ~ 8000 5700
+Wire Wire Line
+	7850 4200 8350 4200
+Wire Wire Line
+	7850 4500 8350 4500
+$Comp
+L MKL04Z32VLC4 U3
+U 1 1 5747CD3E
+P 7150 5500
+F 0 "U3" H 6500 5900 60  0000 C CNN
+F 1 "MKL04Z32VLC4" H 7150 5500 60  0000 C CNN
+F 2 "GotT_Translation_Circuit:NXP_32-LQFP" H 5150 3900 60  0001 C CNN
+F 3 "" H 5150 3900 60  0000 C CNN
+	1    7150 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 6100 8300 6450
+Wire Wire Line
+	6300 5650 6300 5950
+Wire Wire Line
+	6350 5650 6300 5650
+Wire Wire Line
+	6350 5750 6300 5750
+Connection ~ 6300 5750
+Wire Wire Line
+	8150 6050 8150 5700
+$Comp
+L W25Q128FV U2
+U 1 1 5747D71D
+P 1600 7350
+F 0 "U2" H 1300 7650 60  0000 C CNN
+F 1 "W25Q128FV" H 1650 7100 60  0000 C CNN
+F 2 "GotT_Translation_Circuit:SOIC-8" H 1600 7350 60  0001 C CNN
+F 3 "" H 1600 7350 60  0000 C CNN
+	1    1600 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 7500 2150 7500
+Wire Wire Line
+	2150 7500 2150 7550
+Wire Wire Line
+	2100 7400 2150 7400
+Wire Wire Line
+	2150 7400 2150 7150
+Wire Wire Line
+	2100 7300 2150 7300
+Connection ~ 2150 7300
+Wire Wire Line
+	2100 7200 2150 7200
+Connection ~ 2150 7200
+$Comp
+L R_Small R1
+U 1 1 5747DB86
+P 800 7400
+F 0 "R1" H 830 7420 50  0000 L CNN
+F 1 "10K" H 830 7360 50  0000 L CNN
+F 2 "" H 800 7400 50  0001 C CNN
+F 3 "" H 800 7400 50  0000 C CNN
+	1    800  7400
+	1    0    0    -1  
+$EndComp
+Text Notes 1150 7850 0    118  ~ 0
+Memory
+Text Notes 2100 700  0    118  ~ 0
+Wireless
+$Comp
+L POT RV1
+U 1 1 5747DF50
+P 1800 6500
+F 0 "RV1" H 1800 6420 50  0000 C CNN
+F 1 "25K" H 1800 6500 50  0000 C CNN
+F 2 "" H 1800 6500 50  0001 C CNN
+F 3 "" H 1800 6500 50  0000 C CNN
+	1    1800 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV2
+U 1 1 5747E083
+P 4400 7700
+F 0 "RV2" H 4400 7620 50  0000 C CNN
+F 1 "10K" H 4400 7700 50  0000 C CNN
+F 2 "GotT_Translation_Circuit:Bourns_PTV09A-4" H 4400 7700 50  0001 C CNN
+F 3 "" H 4400 7700 50  0000 C CNN
+	1    4400 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV3
+U 1 1 5747E13C
+P 4800 7700
+F 0 "RV3" H 4800 7620 50  0000 C CNN
+F 1 "10K" H 4800 7700 50  0000 C CNN
+F 2 "GotT_Translation_Circuit:Bourns_PTV09A-4" H 4800 7700 50  0001 C CNN
+F 3 "" H 4800 7700 50  0000 C CNN
+	1    4800 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV4
+U 1 1 5747E18C
+P 5200 7700
+F 0 "RV4" H 5200 7620 50  0000 C CNN
+F 1 "10K" H 5200 7700 50  0000 C CNN
+F 2 "GotT_Translation_Circuit:Bourns_PTV09A-4" H 5200 7700 50  0001 C CNN
+F 3 "" H 5200 7700 50  0000 C CNN
+	1    5200 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L NX2520SA X1
+U 1 1 5747F877
+P 7850 4350
+F 0 "X1" H 7850 4350 60  0000 C CNN
+F 1 "16 MHz" H 8200 4350 60  0000 C CNN
+F 2 "" H 7850 4350 60  0000 C CNN
+F 3 "" H 7850 4350 60  0000 C CNN
+	1    7850 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5747FD43
+P 7650 4450
+F 0 "#PWR?" H 7650 4200 50  0001 C CNN
+F 1 "GND" H 7650 4300 50  0000 C CNN
+F 2 "" H 7650 4450 50  0000 C CNN
+F 3 "" H 7650 4450 50  0000 C CNN
+	1    7650 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 4300 7650 4300
+Wire Wire Line
+	7650 4300 7650 4450
+Wire Wire Line
+	7700 4400 7650 4400
+Connection ~ 7650 4400
+$EndSCHEMATC

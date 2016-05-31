@@ -6,3 +6,4 @@
 *.bak
 *.bck
 *-cache.lib
+_autosave*

@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AP7313
+D 1.8V 150mA Low Dropout regulator, Positive
+K REGULATOR LDO 1.8V
+$ENDCMP
+#
 #End Doc Library

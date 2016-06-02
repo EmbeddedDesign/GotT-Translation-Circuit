@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS79933
+D 200 mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23
+K 200mA LDO Regulator Fixed Positive
+F http://www.mouser.com/ds/2/405/tps799-558237.pdf
+$ENDCMP
+#
+#End Doc Library

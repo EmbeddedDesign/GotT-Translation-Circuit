@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Stereo_Audio_Jack_3.5mm
+#
+DEF Stereo_Audio_Jack_3.5mm P 0 40 Y Y 1 F N
+F0 "P" -400 200 60 H V C CNN
+F1 "Stereo_Audio_Jack_3.5mm" -50 -150 60 H V C CNN
+F2 "" -150 -200 60 H V C CNN
+F3 "" -150 -200 60 H V C CNN
+DRAW
+S -500 100 -400 -100 0 1 0 N
+P 3 0 1 0  50 150  -450 150  -450 100 N
+P 4 0 1 0  -50 50  -250 50  -300 0  -350 50 N
+P 4 0 1 0  0 -50  -150 -50  -200 0  -250 -50 N
+X GND 1 450 150 200 L 50 50 1 1 I
+X RIGHT 2 450 50 200 L 50 50 1 1 I
+X LEFT 3 450 -50 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

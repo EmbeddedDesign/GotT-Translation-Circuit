@@ -1,0 +1,274 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:lm2594
+LIBS:Power_Breakout-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Power Test Board"
+Date "2016-06-02"
+Rev "1.0"
+Comp "Noctivore"
+Comment1 "Designed by Ops"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Q_PMOS_GDS Q1
+U 1 1 5750CCA2
+P 4500 3600
+F 0 "Q1" V 4400 3750 50  0000 R CNN
+F 1 "FQP47P06" V 4700 3800 50  0000 R CNN
+F 2 "" H 4700 3700 50  0000 C CNN
+F 3 "" H 4500 3600 50  0000 C CNN
+	1    4500 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ZENERsmall D1
+U 1 1 5750CD17
+P 4800 3650
+F 0 "D1" H 4800 3550 50  0000 C CNN
+F 1 "1N4749A" H 4850 3750 50  0000 C CNN
+F 2 "" H 4800 3650 50  0000 C CNN
+F 3 "" H 4800 3650 50  0000 C CNN
+	1    4800 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R1
+U 1 1 5750CD32
+P 4500 4000
+F 0 "R1" H 4530 4020 50  0000 L CNN
+F 1 "100K" H 4530 3960 50  0000 L CNN
+F 2 "" H 4500 4000 50  0000 C CNN
+F 3 "" H 4500 4000 50  0000 C CNN
+	1    4500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L FUSE F1
+U 1 1 5750CD4F
+P 5150 3500
+F 0 "F1" H 5100 3450 50  0000 C CNN
+F 1 "0ZCJ0050AF2E" H 5150 3600 50  0000 C CNN
+F 2 "" H 5150 3500 50  0000 C CNN
+F 3 "" H 5150 3500 50  0000 C CNN
+	1    5150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C1
+U 1 1 5750CD82
+P 5450 3850
+F 0 "C1" H 5460 3920 50  0000 L CNN
+F 1 "10uF" H 5460 3770 50  0000 L CNN
+F 2 "" H 5450 3850 50  0000 C CNN
+F 3 "" H 5450 3850 50  0000 C CNN
+	1    5450 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_Small D2
+U 1 1 5750CDC7
+P 6300 3850
+F 0 "D2" H 6250 3930 50  0000 L CNN
+F 1 "MBRS130L" H 6100 3750 50  0000 L CNN
+F 2 "" V 6300 3850 50  0000 C CNN
+F 3 "" V 6300 3850 50  0000 C CNN
+	1    6300 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L L_Small L1
+U 1 1 5750CDF8
+P 6500 3550
+F 0 "L1" V 6450 3500 50  0000 L CNN
+F 1 "100uH" V 6550 3450 50  0000 L CNN
+F 2 "" H 6500 3550 50  0000 C CNN
+F 3 "" H 6500 3550 50  0000 C CNN
+	1    6500 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C3
+U 1 1 5750CE29
+P 6900 3850
+F 0 "C3" H 6910 3920 50  0000 L CNN
+F 1 "0.1uF" H 6910 3770 50  0000 L CNN
+F 2 "" H 6900 3850 50  0000 C CNN
+F 3 "" H 6900 3850 50  0000 C CNN
+	1    6900 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C2
+U 1 1 5750CEDA
+P 6650 3850
+F 0 "C2" H 6660 3920 50  0000 L CNN
+F 1 "10uF" H 6660 3770 50  0000 L CNN
+F 2 "" H 6650 3850 50  0000 C CNN
+F 3 "" H 6650 3850 50  0000 C CNN
+	1    6650 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R2
+U 1 1 5750CF7B
+P 7200 3950
+F 0 "R2" H 7230 3970 50  0000 L CNN
+F 1 "100" H 7230 3910 50  0000 L CNN
+F 2 "" H 7200 3950 50  0000 C CNN
+F 3 "" H 7200 3950 50  0000 C CNN
+	1    7200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Led_Small D3
+U 1 1 5750D03D
+P 7200 3700
+F 0 "D3" H 7150 3825 50  0000 L CNN
+F 1 "PWR LED" H 7025 3600 50  0000 L CNN
+F 2 "" V 7200 3700 50  0000 C CNN
+F 3 "" V 7200 3700 50  0000 C CNN
+	1    7200 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 3500 4900 3500
+Wire Wire Line
+	4800 3550 4800 3500
+Connection ~ 4800 3500
+Wire Wire Line
+	4500 3800 4500 3900
+Wire Wire Line
+	4500 3850 4800 3850
+Wire Wire Line
+	4800 3850 4800 3750
+Connection ~ 4500 3850
+$Comp
+L +3V3 #PWR?
+U 1 1 5750D5F3
+P 7200 3500
+F 0 "#PWR?" H 7200 3350 50  0001 C CNN
+F 1 "+3V3" H 7200 3640 50  0000 C CNN
+F 2 "" H 7200 3500 50  0000 C CNN
+F 3 "" H 7200 3500 50  0000 C CNN
+	1    7200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5750D628
+P 4500 4200
+F 0 "#PWR?" H 4500 3950 50  0001 C CNN
+F 1 "GND" H 4500 4050 50  0000 C CNN
+F 2 "" H 4500 4200 50  0000 C CNN
+F 3 "" H 4500 4200 50  0000 C CNN
+	1    4500 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4100 4500 4200
+$Comp
+L VCC #PWR?
+U 1 1 5750D741
+P 4050 3500
+F 0 "#PWR?" H 4050 3350 50  0001 C CNN
+F 1 "VCC" H 4050 3650 50  0000 C CNN
+F 2 "" H 4050 3500 50  0000 C CNN
+F 3 "" H 4050 3500 50  0000 C CNN
+	1    4050 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM2594 U1
+U 1 1 5750D76B
+P 5850 3500
+F 0 "U1" H 6050 3150 60  0000 C CNN
+F 1 "LM2594" H 5850 3650 60  0000 C CNN
+F 2 "" H 5850 3500 60  0000 C CNN
+F 3 "" H 5850 3500 60  0000 C CNN
+	1    5850 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3500 5500 3500
+Wire Wire Line
+	7200 3550 6600 3550
+Wire Wire Line
+	6400 3550 6200 3550
+Wire Wire Line
+	6200 3450 6650 3450
+Wire Wire Line
+	6650 3450 6650 3750
+Connection ~ 6650 3550
+Wire Wire Line
+	7200 3500 7200 3600
+Connection ~ 7200 3550
+Wire Wire Line
+	4500 4150 7200 4150
+Wire Wire Line
+	7200 4150 7200 4050
+Connection ~ 4500 4150
+Wire Wire Line
+	7200 3800 7200 3850
+Connection ~ 5450 3500
+Connection ~ 5450 4150
+Wire Wire Line
+	6650 3950 6650 4150
+Connection ~ 6650 4150
+Wire Wire Line
+	6900 3750 6900 3550
+Connection ~ 6900 3550
+Wire Wire Line
+	6900 3950 6900 4150
+Connection ~ 6900 4150
+Wire Wire Line
+	6300 3750 6300 3550
+Connection ~ 6300 3550
+Wire Wire Line
+	6300 3950 6300 4150
+Connection ~ 6300 4150
+Wire Wire Line
+	5450 3750 5450 3500
+Wire Wire Line
+	5450 4150 5450 3950
+Wire Wire Line
+	5750 3900 5750 4150
+Connection ~ 5750 4150
+Wire Wire Line
+	5950 3900 5950 4150
+Connection ~ 5950 4150
+$EndSCHEMATC

@@ -1,0 +1,214 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:pwm_isolator
+LIBS:PWM_Isolator-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "RC PWM Opto Isolator Test Board"
+Date "2016-06-03"
+Rev "1.0"
+Comp "Noctivore"
+Comment1 "Designed by Ops"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R_Small R1
+U 1 1 57523B4E
+P 6150 3650
+F 0 "R1" V 6050 3600 50  0000 L CNN
+F 1 "220" V 6250 3600 50  0000 L CNN
+F 2 "" H 6150 3650 50  0000 C CNN
+F 3 "" H 6150 3650 50  0000 C CNN
+	1    6150 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R2
+U 1 1 57523B8E
+P 7050 3950
+F 0 "R2" H 7080 3970 50  0000 L CNN
+F 1 "R_Small" H 7080 3910 50  0000 L CNN
+F 2 "" H 7050 3950 50  0000 C CNN
+F 3 "" H 7050 3950 50  0000 C CNN
+	1    7050 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SN74LVC1G34 U1
+U 1 1 57524172
+P 5650 3650
+F 0 "U1" H 5550 3850 60  0000 C CNN
+F 1 "SN74LVC1G34" H 5200 3500 60  0000 C CNN
+F 2 "" H 5650 3650 60  0000 C CNN
+F 3 "" H 5650 3650 60  0000 C CNN
+	1    5650 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P1
+U 1 1 575241E7
+P 4950 3550
+F 0 "P1" H 4950 3350 50  0000 C CNN
+F 1 "RC_HEADER" V 5050 3550 50  0000 C CNN
+F 2 "" H 4950 3550 50  0000 C CNN
+F 3 "" H 4950 3550 50  0000 C CNN
+	1    4950 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57524096
+P 5200 3350
+F 0 "#PWR?" H 5200 3100 50  0001 C CNN
+F 1 "GND" H 5200 3200 50  0000 C CNN
+F 2 "" H 5200 3350 50  0000 C CNN
+F 3 "" H 5200 3350 50  0000 C CNN
+	1    5200 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 575240B4
+P 5650 4000
+F 0 "#PWR?" H 5650 3750 50  0001 C CNN
+F 1 "GND" H 5650 3850 50  0000 C CNN
+F 2 "" H 5650 4000 50  0000 C CNN
+F 3 "" H 5650 4000 50  0000 C CNN
+	1    5650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 57524195
+P 7050 3550
+F 0 "#PWR?" H 7050 3400 50  0001 C CNN
+F 1 "+3V3" H 7050 3690 50  0000 C CNN
+F 2 "" H 7050 3550 50  0000 C CNN
+F 3 "" H 7050 3550 50  0000 C CNN
+	1    7050 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5752429B
+P 5350 3350
+F 0 "#PWR?" H 5350 3200 50  0001 C CNN
+F 1 "+5V" H 5350 3490 50  0000 C CNN
+F 2 "" H 5350 3350 50  0000 C CNN
+F 3 "" H 5350 3350 50  0000 C CNN
+	1    5350 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3650 6050 3650
+Wire Wire Line
+	5650 3300 5650 3450
+Wire Wire Line
+	5650 3850 5650 4000
+Wire Wire Line
+	7050 4050 7050 4200
+$Comp
+L GNDD #PWR?
+U 1 1 57524599
+P 7050 4200
+F 0 "#PWR?" H 7050 3950 50  0001 C CNN
+F 1 "GNDD" H 7050 4050 50  0000 C CNN
+F 2 "" H 7050 4200 50  0000 C CNN
+F 3 "" H 7050 4200 50  0000 C CNN
+	1    7050 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 575245F1
+P 6350 3850
+F 0 "#PWR?" H 6350 3600 50  0001 C CNN
+F 1 "GND" H 6350 3700 50  0000 C CNN
+F 2 "" H 6350 3850 50  0000 C CNN
+F 3 "" H 6350 3850 50  0000 C CNN
+	1    6350 3850
+	1    0    0    -1  
+$EndComp
+Text Label 7150 3750 0    60   ~ 0
+OUTPUT
+$Comp
+L FOD817D3SD U2
+U 1 1 57524850
+P 6700 3700
+F 0 "U2" H 6500 3850 50  0000 L CNN
+F 1 "FOD817D3SD" H 6450 3550 50  0000 L CNN
+F 2 "" H 6500 3500 50  0000 L CIN
+F 3 "" H 6700 3700 50  0000 L CNN
+	1    6700 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3750 6350 3750
+Wire Wire Line
+	6350 3750 6350 3850
+Wire Wire Line
+	6250 3650 6400 3650
+Wire Wire Line
+	7000 3750 7150 3750
+Wire Wire Line
+	7050 3750 7050 3850
+Wire Wire Line
+	7050 3550 7050 3650
+Wire Wire Line
+	7050 3650 7000 3650
+Connection ~ 7050 3750
+Wire Wire Line
+	5200 3350 5200 3450
+Wire Wire Line
+	5200 3450 5150 3450
+Wire Wire Line
+	5350 3550 5150 3550
+Wire Wire Line
+	5350 3550 5350 3350
+Wire Wire Line
+	5150 3650 5450 3650
+$Comp
+L +5V #PWR?
+U 1 1 57524EF5
+P 5650 3300
+F 0 "#PWR?" H 5650 3150 50  0001 C CNN
+F 1 "+5V" H 5650 3440 50  0000 C CNN
+F 2 "" H 5650 3300 50  0000 C CNN
+F 3 "" H 5650 3300 50  0000 C CNN
+	1    5650 3300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

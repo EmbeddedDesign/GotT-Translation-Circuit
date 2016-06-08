@@ -3,10 +3,10 @@
   (general
     (links 26)
     (no_connects 26)
-    (area 110.125 87.955 171.875 112.675001)
+    (area 107.674999 83.894999 166.815001 112.685001)
     (thickness 1.6)
     (drawings 4)
-    (tracks 7)
+    (tracks 0)
     (zones 0)
     (modules 17)
     (nets 10)
@@ -220,7 +220,7 @@
   )
 
   (module Diodes_SMD:SOD-123 (layer F.Cu) (tedit 5757AF95) (tstamp 5757AF5A)
-    (at 129.53 94.16)
+    (at 130 94.16)
     (descr SOD-123)
     (tags SOD-123)
     (path /5750CDC7)
@@ -431,10 +431,10 @@
       (net 2 GND))
   )
 
-  (module power_breakout:RCS-0C_Test_Point (layer F.Cu) (tedit 5757B9B6) (tstamp 5757AFA7)
+  (module power_breakout:RCS-0C_Test_Point (layer F.Cu) (tedit 5757AFB5) (tstamp 5757AFA7)
     (at 146.48 92.89 90)
     (path /575789D6)
-    (fp_text reference TP2 (at -2.75 0 180) (layer F.SilkS)
+    (fp_text reference TP2 (at 0 -2 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value TP1 (at 0 2 90) (layer F.Fab) hide
@@ -458,7 +458,7 @@
   )
 
   (module power_breakout:RCS-0C_Test_Point (layer F.Cu) (tedit 5757AFAC) (tstamp 5757AFB1)
-    (at 144.5 108.12)
+    (at 142.92 108.75)
     (path /57578588)
     (fp_text reference TP4 (at 0 -2) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -567,13 +567,5 @@
   (gr_line (start 170.57 112.6) (end 111.58 112.4) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 171.03 88.92) (end 171.18 112.6) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 111.11 88.57) (end 171.28 88.87) (layer Edge.Cuts) (width 0.15))
-
-  (segment (start 129.365 96.825) (end 129.365 93.825) (width 0.25) (layer F.Cu) (net 1))
-  (segment (start 135.5199 92.77918) (end 136.57 92.77918) (width 0.25) (layer F.Cu) (net 1))
-  (segment (start 129.365 93.825) (end 130.41082 92.77918) (width 0.25) (layer F.Cu) (net 1))
-  (segment (start 130.41082 92.77918) (end 135.5199 92.77918) (width 0.25) (layer F.Cu) (net 1))
-  (segment (start 131.139 96.825) (end 130.635 96.825) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 127.95 94.16) (end 127.95 97.375) (width 0.8) (layer F.Cu) (net 6))
-  (segment (start 113.9 93.925) (end 127.35 93.925) (width 2) (layer F.Cu) (net 6))
 
 )

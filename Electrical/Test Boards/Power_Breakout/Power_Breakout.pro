@@ -1,4 +1,4 @@
-update=Thu 02 Jun 2016 05:23:12 PM PDT
+update=Tue 07 Jun 2016 09:48:33 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=lib/lm2594
+LibName31=lib/gf-123-0054

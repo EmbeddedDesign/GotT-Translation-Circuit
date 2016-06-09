@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name pwm_isolator)(type KiCad)(uri "$(KIPRJMOD)/pwm_isolator.pretty")(options "")(descr ""))
+)

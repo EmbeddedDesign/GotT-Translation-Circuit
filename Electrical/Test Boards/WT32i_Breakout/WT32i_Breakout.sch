@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "WT32i Breakout"
-Date "2016-06-02"
+Date "2016-06-10"
 Rev "2.0"
 Comp "Noctivore"
 Comment1 "Designed by Ops"
@@ -514,14 +514,30 @@ Wire Wire Line
 Wire Wire Line
 	3050 3300 3050 3250
 $Comp
-L CONN_01X04 P?
+L CONN_01X04 P2
 U 1 1 5750CB3B
-P 7600 3950
-F 0 "P?" H 7600 4200 50  0000 C CNN
-F 1 "CONN_01X04" V 7700 3950 50  0000 C CNN
-F 2 "" H 7600 3950 50  0000 C CNN
-F 3 "" H 7600 3950 50  0000 C CNN
-	1    7600 3950
+P 7850 3950
+F 0 "P2" H 7850 4200 50  0000 C CNN
+F 1 "CONN_01X04" V 7950 3950 50  0000 C CNN
+F 2 "" H 7850 3950 50  0000 C CNN
+F 3 "" H 7850 3950 50  0000 C CNN
+	1    7850 3950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7550 3800 7650 3800
+Wire Wire Line
+	7550 3900 7650 3900
+Wire Wire Line
+	7550 4000 7650 4000
+Wire Wire Line
+	7550 4100 7650 4100
+Text Label 7550 3800 2    60   ~ 0
+I2S_IN
+Text Label 7550 3900 2    60   ~ 0
+I2S_OUT
+Text Label 7550 4000 2    60   ~ 0
+I2S_WS
+Text Label 7550 4100 2    60   ~ 0
+I2S_SCK
 $EndSCHEMATC

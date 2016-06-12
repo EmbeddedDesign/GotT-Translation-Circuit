@@ -5,6 +5,6 @@
 #KiCad temp files
 *.bak
 *.bck
-*-bak
+*.kicad_pcb-bak
 *-cache.lib
 _autosave*

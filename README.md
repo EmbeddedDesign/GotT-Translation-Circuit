@@ -58,6 +58,8 @@ An [N-Channel MOSFET](https://en.wikipedia.org/wiki/MOSFET) is used to accomplis
 
 ### WT32i
 
+This is a test board for the [Silicon Labs](https://www.silabs.com/Pages/default.aspx) [WT32i Bluetooth audio module](https://www.silabs.com/products/wireless/bluetooth/bluetooth-classic-modules/Pages/wt32i-bluetooth-audio-module.aspx) (formerly [Bluegiga](https://www.bluegiga.com/en-US/products/wt32i-bluetooth-audio-module/)).
+
 ## License
 
 [MIT License](LICENSE) © [Operator](https://github.com/EmbeddedDesign)

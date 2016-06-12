@@ -5,5 +5,6 @@
 #KiCad temp files
 *.bak
 *.bck
+*-bak
 *-cache.lib
 _autosave*

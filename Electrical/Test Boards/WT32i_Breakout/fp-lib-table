@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name wt32i_breakout)(type KiCad)(uri "$(KIPRJMOD)/wt32i_breakout.pretty")(options "")(descr ""))
+)

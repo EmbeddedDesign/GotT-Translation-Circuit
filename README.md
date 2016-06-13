@@ -24,41 +24,7 @@ GotT is a modern modulator for modern Daleks.
 
 ## Test Boards
 
-Located in the /Electrical/Test Boards/ folder of this repository are design files for a number of sub-circuit assemblies present on the GotT main board.
-
-These were built primarily to test each sub-circuit in a standalone environment prior to incorporation into the larger GotT assembly.
-
-They may also be useful by themselves or as parts of other projects.
-
-### Power
-
-The power circuit on the GotT was designed to be a close to bulletproof as possible.
-
-It is designed to output a constant 3.3V DC at up to 500mA.
-
-It includes protection against [reverse voltage](https://en.wikipedia.org/wiki/Breakdown_voltage), [overcurrent](https://en.wikipedia.org/wiki/Overcurrent), [overvoltage](https://en.wikipedia.org/wiki/Overvoltage), and overtemperature.
-
-The key protection components of the power supply are designed to be *relatively* easy to replace should they fail as they should ultimately sacrifice themselves to protect the rest of the board.
-
-### PWM Isolation
-
-The GotT has the ability to read in a [PWM](https://en.wikipedia.org/wiki/Pulse-width_modulation) signal like the ones output by most R/C receivers.
-
-While most receivers do include 5V regulated output, the larger issue is that it cannot be assumed that GotT and the receiver share a common ground.
-
-Arbitrarily shorting receiver ground to GotT ground could release its [magic smoke](https://en.wikipedia.org/wiki/Magic_smoke), thus isolation is necessary.
-
-This isolation is acheived through the use of an [opto-isolator](https://en.wikipedia.org/wiki/Opto-isolator).
-
-### Lights
-
-Becuase the lights on many Daleks operate on 12VDC and present a [large load](https://en.wikipedia.org/wiki/Electrical_load)(e.g. - Can consume a lot of current) and the GotT operates primarily on 3.3V DC (and can only source a relatively small current) a method is needed to control them.
-
-An [N-Channel MOSFET](https://en.wikipedia.org/wiki/MOSFET) is used to accomplish this.
-
-### WT32i
-
-This is a test board for the [Silicon Labs](https://www.silabs.com/Pages/default.aspx) [WT32i Bluetooth audio module](https://www.silabs.com/products/wireless/bluetooth/bluetooth-classic-modules/Pages/wt32i-bluetooth-audio-module.aspx) (formerly [Bluegiga](https://www.bluegiga.com/en-US/products/wt32i-bluetooth-audio-module/)).
+A more detailed overview of the best boards found in the [/Electrical/Test Boards/](https://github.com/EmbeddedDesign/GotT-Translation-Circuit/tree/master/Electrical/Test%20Boards) subdirectory [can be found here](https://noctivore.com/2016/06/12/gott-translation-circuit/).
 
 ## License
 

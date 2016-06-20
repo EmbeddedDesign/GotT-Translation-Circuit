@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "WT32i Breakout"
-Date "2016-06-17"
+Date "2016-06-19"
 Rev "2.0"
 Comp "Noctivore"
 Comment1 "Designed by Ops"
@@ -111,17 +111,6 @@ F 2 "Capacitors_SMD:C_0603" H 2800 3150 50  0001 C CNN
 F 3 "" H 2800 3150 50  0000 C CNN
 	1    2800 3150
 	1    0    0    -1  
-$EndComp
-$Comp
-L D_Small D1
-U 1 1 57509CCB
-P 4100 4250
-F 0 "D1" H 4050 4330 50  0000 L CNN
-F 1 "D_Reset" H 3950 4170 50  0000 L CNN
-F 2 "Diodes_SMD:SOD-123" V 4100 4250 50  0001 C CNN
-F 3 "" V 4100 4250 50  0000 C CNN
-	1    4100 4250
-	-1   0    0    1   
 $EndComp
 $Comp
 L Led_Small D2
@@ -222,8 +211,6 @@ F 3 "" H 4050 4000 50  0000 C CNN
 	1    4050 4000
 	1    0    0    -1  
 $EndComp
-Text Label 3900 4250 2    60   ~ 0
-RESET
 Text Label 5950 3350 0    60   ~ 0
 I2S_IN
 Text Label 5950 3450 0    60   ~ 0
@@ -401,23 +388,23 @@ UART_RXD
 $Comp
 L GND #PWR016
 U 1 1 5750C81D
-P 3100 4050
-F 0 "#PWR016" H 3100 3800 50  0001 C CNN
-F 1 "GND" H 3100 3900 50  0000 C CNN
-F 2 "" H 3100 4050 50  0000 C CNN
-F 3 "" H 3100 4050 50  0000 C CNN
-	1    3100 4050
+P 3100 4000
+F 0 "#PWR016" H 3100 3750 50  0001 C CNN
+F 1 "GND" H 3100 3850 50  0000 C CNN
+F 2 "" H 3100 4000 50  0000 C CNN
+F 3 "" H 3100 4000 50  0000 C CNN
+	1    3100 4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3V3 #PWR017
 U 1 1 5750C858
-P 3100 3750
-F 0 "#PWR017" H 3100 3600 50  0001 C CNN
-F 1 "+3V3" H 3100 3890 50  0000 C CNN
-F 2 "" H 3100 3750 50  0000 C CNN
-F 3 "" H 3100 3750 50  0000 C CNN
-	1    3100 3750
+P 3100 3800
+F 0 "#PWR017" H 3100 3650 50  0001 C CNN
+F 1 "+3V3" H 3100 3940 50  0000 C CNN
+F 2 "" H 3100 3800 50  0000 C CNN
+F 3 "" H 3100 3800 50  0000 C CNN
+	1    3100 3800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -439,19 +426,6 @@ Text Label 7550 4550 2    60   ~ 0
 I2S_WS
 Text Label 7550 4650 2    60   ~ 0
 I2S_SCK
-$Comp
-L CONN_01X03 P3
-U 1 1 575DE97A
-P 2850 3900
-F 0 "P3" H 2850 4100 50  0000 C CNN
-F 1 "PWR_CONN" V 2950 3900 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x03" H 2850 3900 50  0001 C CNN
-F 3 "" H 2850 3900 50  0000 C CNN
-	1    2850 3900
-	-1   0    0    1   
-$EndComp
-Text Label 3150 3900 0    60   ~ 0
-RESET
 $Comp
 L GND #PWR018
 U 1 1 575DED3C
@@ -589,21 +563,13 @@ Wire Wire Line
 Wire Wire Line
 	3700 4750 3700 4550
 Wire Wire Line
-	4200 4250 4400 4250
-Wire Wire Line
-	3900 4250 4000 4250
-Wire Wire Line
 	2800 2750 2800 3050
 Wire Wire Line
 	2800 3250 2800 3300
 Wire Wire Line
-	3050 4000 3100 4000
+	3050 3850 3100 3850
 Wire Wire Line
-	3100 4000 3100 4050
-Wire Wire Line
-	3050 3800 3100 3800
-Wire Wire Line
-	3100 3800 3100 3750
+	3100 3850 3100 3800
 Wire Wire Line
 	7550 4350 7650 4350
 Wire Wire Line
@@ -612,8 +578,6 @@ Wire Wire Line
 	7550 4550 7650 4550
 Wire Wire Line
 	7550 4650 7650 4650
-Wire Wire Line
-	3150 3900 3050 3900
 Wire Wire Line
 	4400 4050 4050 4050
 Wire Wire Line
@@ -686,30 +650,20 @@ Wire Wire Line
 Wire Wire Line
 	7500 2850 7500 2950
 Connection ~ 7500 2950
+NoConn ~ 4400 4250
 $Comp
-L GNDA #PWR021
-U 1 1 5764D154
-P 8900 3900
-F 0 "#PWR021" H 8900 3650 50  0001 C CNN
-F 1 "GNDA" H 8900 3750 50  0000 C CNN
-F 2 "" H 8900 3900 50  0000 C CNN
-F 3 "" H 8900 3900 50  0000 C CNN
-	1    8900 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X01 P5
-U 1 1 5764D9DF
-P 8900 3600
-F 0 "P5" H 8900 3700 50  0000 C CNN
-F 1 "AGND" V 9000 3600 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01" H 8900 3600 50  0001 C CNN
-F 3 "" H 8900 3600 50  0000 C CNN
-	1    8900 3600
-	0    -1   -1   0   
+L CONN_01X02 P3
+U 1 1 576782E6
+P 2850 3900
+F 0 "P3" H 2850 4050 50  0000 C CNN
+F 1 "PWR_CONN" V 2950 3900 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 2850 3900 50  0001 C CNN
+F 3 "" H 2850 3900 50  0000 C CNN
+	1    2850 3900
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8900 3800 8900 3900
-Text Notes 7700 4050 0    60   ~ 0
-AGND goes to Pin1\nof UART_CONN P1\nfor clean return path\nto GND for Audio Jack
+	3050 3950 3100 3950
+Wire Wire Line
+	3100 3950 3100 4000
 $EndSCHEMATC

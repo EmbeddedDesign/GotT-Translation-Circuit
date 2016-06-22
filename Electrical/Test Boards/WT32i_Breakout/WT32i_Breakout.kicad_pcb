@@ -14,7 +14,7 @@
 
   (page A4)
   (title_block
-    (date 2016-06-17)
+    (date 2016-06-22)
   )
 
   (layers
@@ -68,7 +68,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x000f8_80000001)
+      (layerselection 0x010f8_80000001)
       (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -1184,6 +1184,10 @@
   (segment (start 112.25 87.5976) (end 109.1524 84.5) (width 0.5) (layer B.Cu) (net 2))
   (segment (start 109.1524 84.5) (end 109 84.5) (width 0.5) (layer B.Cu) (net 2))
   (segment (start 112.25 87.5976) (end 112.25 88.75) (width 0.5) (layer B.Cu) (net 2))
+  (segment (start 141.51 80.16) (end 134.3 87.37) (width 0.5) (layer B.Cu) (net 2))
+  (segment (start 111.7 84.5) (end 109 84.5) (width 0.5) (layer B.Cu) (net 2))
+  (segment (start 134.3 87.37) (end 114.57 87.37) (width 0.5) (layer B.Cu) (net 2))
+  (segment (start 114.57 87.37) (end 111.7 84.5) (width 0.5) (layer B.Cu) (net 2))
   (segment (start 117.175 100.37) (end 117.175 104.4957) (width 0.4) (layer F.Cu) (net 3))
   (segment (start 117.175 104.4957) (end 117.1793 104.5) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 117.3 84.37) (end 118.58 84.37) (width 0.5) (layer F.Cu) (net 3))
@@ -1237,10 +1241,6 @@
   (segment (start 131 102.325) (end 131.55 102.325) (width 0.4) (layer F.Cu) (net 20))
   (segment (start 131.55 102.325) (end 132.62 103.395) (width 0.4) (layer F.Cu) (net 20))
   (segment (start 155.9 80.16) (end 141.51 80.16) (width 0.5) (layer B.Cu) (net 25))
-  (segment (start 141.51 80.16) (end 134.3 87.37) (width 0.5) (layer B.Cu) (net 25))
-  (segment (start 111.7 84.5) (end 109 84.5) (width 0.5) (layer B.Cu) (net 25))
-  (segment (start 134.3 87.37) (end 114.57 87.37) (width 0.5) (layer B.Cu) (net 25))
-  (segment (start 114.57 87.37) (end 111.7 84.5) (width 0.5) (layer B.Cu) (net 25))
   (segment (start 155.9 80.16) (end 160.49 80.16) (width 0.5) (layer F.Cu) (net 25))
   (segment (start 160.49 80.16) (end 160.5 80.17) (width 0.25) (layer F.Cu) (net 25))
   (via (at 155.9 80.16) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 25))

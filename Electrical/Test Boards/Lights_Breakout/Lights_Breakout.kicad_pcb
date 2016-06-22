@@ -14,7 +14,7 @@
 
   (page A4)
   (title_block
-    (date 2016-06-11)
+    (date 2016-06-22)
   )
 
   (layers
@@ -68,7 +68,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x01038_80000001)
+      (layerselection 0x010f8_80000001)
       (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)

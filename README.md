@@ -26,7 +26,7 @@ GotT is a modern modulator for modern Daleks.
 
 Several of the sub-circuits on the GotT including those of the lights, PWM isolator, power, and WT32i were first constructed at test boards to ensure proper concept and functionality prior to integration into the larger design.
 
-A detailed overview of the test boards, their functionality, and deeper descriptions of basic functionality [can be found here](https://noctivore.com/2016/06/12/gott-translation-circuit/).
+A detailed overview of the test boards and deeper descriptions of basic functionality [can be found here](https://noctivore.com/2016/06/12/gott-translation-circuit/).
 
 Images of the schematics and layout along with complete deign files and BOM for each of the test boards can be found in the respective subdirectories of the [/Electrical/Test Boards/](https://github.com/EmbeddedDesign/GotT-Translation-Circuit/tree/master/Electrical/Test%20Boards) section of this repository.
 

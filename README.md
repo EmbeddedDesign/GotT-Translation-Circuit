@@ -2,7 +2,7 @@
 
 GotT is a Bluetooth voice modulator circuit for Daleks
 
-<img src="https://s3.amazonaws.com/media.noctivore.com/rel.jpg" width="540">
+<img src="https://s3.amazonaws.com/media.noctivore.com/FrazerHines_Rel.jpg" width="540">
 
 ## FAQ
 
@@ -24,7 +24,11 @@ GotT is a modern modulator for modern Daleks.
 
 ## Test Boards
 
-A more detailed overview of the best boards found in the [/Electrical/Test Boards/](https://github.com/EmbeddedDesign/GotT-Translation-Circuit/tree/master/Electrical/Test%20Boards) subdirectory [can be found here](https://noctivore.com/2016/06/12/gott-translation-circuit/).
+Several of the sub-circuits on the GotT including those of the lights, PWM isolator, power, and WT32i were first constructed at test boards to ensure proper concept and functionality prior to integration into the larger design.
+
+A detailed overview of the test boards, their functionality, and deeper descriptions of basic functionality [can be found here](https://noctivore.com/2016/06/12/gott-translation-circuit/).
+
+Images of the schematics and layout along with complete deign files and BOM for each of the test boards can be found in the respective subdirectories of the [/Electrical/Test Boards/](https://github.com/EmbeddedDesign/GotT-Translation-Circuit/tree/master/Electrical/Test%20Boards) section of this repository.
 
 ## License
 

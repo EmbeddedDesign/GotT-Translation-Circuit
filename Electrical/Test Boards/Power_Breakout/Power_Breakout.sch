@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Power Test Board"
-Date "2016-06-07"
+Date "2016-07-08"
 Rev "1.0"
 Comp "Noctivore"
 Comment1 "Designed by Ops"
@@ -105,7 +105,7 @@ L D_Schottky_Small D2
 U 1 1 5750CDC7
 P 6300 3850
 F 0 "D2" H 6250 3930 50  0000 L CNN
-F 1 "MBRS130L" H 6100 3750 50  0000 L CNN
+F 1 "1N5819HW" H 6100 3750 50  0000 L CNN
 F 2 "Diodes_SMD:SOD-123" V 6300 3850 50  0001 C CNN
 F 3 "" V 6300 3850 50  0000 C CNN
 	1    6300 3850

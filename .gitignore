@@ -8,3 +8,6 @@
 *.kicad_pcb-bak
 *-cache.lib
 _autosave*
+
+#Bash scripts
+*.sh

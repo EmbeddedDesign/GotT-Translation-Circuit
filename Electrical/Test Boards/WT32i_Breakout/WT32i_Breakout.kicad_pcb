@@ -14,7 +14,7 @@
 
   (page A4)
   (title_block
-    (date 2016-06-22)
+    (date 2016-07-10)
   )
 
   (layers
@@ -639,7 +639,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5764C224) (tstamp 5764BCA0)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5783269C) (tstamp 5764BCA0)
     (at 146.55 81.965)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -648,7 +648,7 @@
     (fp_text reference L1 (at 0 1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 33uH (at 0 1.7) (layer F.Fab) hide
+    (fp_text value 33nH (at 0 1.7) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.15 -0.6) (end 1.15 -0.6) (layer F.CrtYd) (width 0.05))
@@ -668,7 +668,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5764C226) (tstamp 5764BCA6)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 578326A4) (tstamp 5764BCA6)
     (at 146.55 85.775 180)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -677,7 +677,7 @@
     (fp_text reference L2 (at 0 1.5 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 33uH (at 0 1.7 180) (layer F.Fab) hide
+    (fp_text value 33nH (at 0 1.7 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.15 -0.6) (end 1.15 -0.6) (layer F.CrtYd) (width 0.05))
@@ -1188,6 +1188,8 @@
   (segment (start 111.7 84.5) (end 109 84.5) (width 0.5) (layer B.Cu) (net 2))
   (segment (start 134.3 87.37) (end 114.57 87.37) (width 0.5) (layer B.Cu) (net 2))
   (segment (start 114.57 87.37) (end 111.7 84.5) (width 0.5) (layer B.Cu) (net 2))
+  (segment (start 155.9 80.16) (end 141.51 80.16) (width 0.5) (layer B.Cu) (net 2))
+  (via (at 155.9 80.16) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 2))
   (segment (start 117.175 100.37) (end 117.175 104.4957) (width 0.4) (layer F.Cu) (net 3))
   (segment (start 117.175 104.4957) (end 117.1793 104.5) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 117.3 84.37) (end 118.58 84.37) (width 0.5) (layer F.Cu) (net 3))
@@ -1240,10 +1242,8 @@
   (segment (start 132.62 103.395) (end 132.62 106.5) (width 0.4) (layer F.Cu) (net 20))
   (segment (start 131 102.325) (end 131.55 102.325) (width 0.4) (layer F.Cu) (net 20))
   (segment (start 131.55 102.325) (end 132.62 103.395) (width 0.4) (layer F.Cu) (net 20))
-  (segment (start 155.9 80.16) (end 141.51 80.16) (width 0.5) (layer B.Cu) (net 25))
   (segment (start 155.9 80.16) (end 160.49 80.16) (width 0.5) (layer F.Cu) (net 25))
   (segment (start 160.49 80.16) (end 160.5 80.17) (width 0.25) (layer F.Cu) (net 25))
-  (via (at 155.9 80.16) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 25))
 
   (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
     (connect_pads (clearance 0.381))

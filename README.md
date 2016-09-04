@@ -22,6 +22,14 @@ While purists may argue that nothing sounds quite like a pair of audio transform
 
 GotT is a modern modulator for modern Daleks.
 
+## The Board
+
+### Schematic
+
+![GotT Translation Circuit Schematic](/Electrical/GotT_Translation_Circuit_Schematic.png)
+
+All of the design files for the board can be found in the [/Electrical/](https://github.com/EmbeddedDesign/GotT-Translation-Circuit/tree/master/Electrical) subdirectory of this repository.
+
 ## Test Boards
 
 Several of the sub-circuits on the GotT including those of the lights, PWM isolator, power, and WT32i were first constructed at test boards to ensure proper concept and functionality prior to integration into the larger design.

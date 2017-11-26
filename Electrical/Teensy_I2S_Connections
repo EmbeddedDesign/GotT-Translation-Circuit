@@ -1,0 +1,15 @@
+WT32i							SGTL5000			Teensy
+I2S_IN (27) I2S Data Input		Not connected		Not Connected
+I2S_OUT (28) I2s Data Output	I2S_DIN (26)		RX (13)
+I2S_WS (29) I2S Word Select		I2S_LRCLK (23)		LRCLK (23)
+I2S_SCK (30) I2S Clock			I2S_SCLK (24)		BCLK (9)
+
+The bus consists of three lines:
+
+Bit clock line
+Word clock line - also called word select (WS) or left right clock (LRCLK)
+At least one multiplexed data line
+
+Datasheets:
+https://www.bluegiga.com/protectedstore/8pHYFByrRbCfvauWLt5CMQ/WO2M7TEn4xjg1UFNzUIYrQ/ud3RsIsg9OURM2jv18ZBfrKUQ68RMT76sA8HlnbvUysS4OVw420z/WT32i_Datasheet.pdf
+http://cache.nxp.com/files/analog/doc/data_sheet/SGTL5000.pdf?pspll=1

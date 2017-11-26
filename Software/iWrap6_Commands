@@ -1,0 +1,33 @@
+# Boot output:
+WRAP THOR AI (6.0.0 build 897)
+Copyright (c) 2003-2014 Bluegiga Technologies Inc.
+READY.
+
+# Test Response:
+at
+
+# Print Settings:
+set
+
+# Discover devices:
+inquiry 5
+
+# Service Discovery:
+sdp {bt_addr} 1002
+
+# Set Audio Gateway (HSP-AG):
+set profile hsp-ag on
+set bt class 200204
+reset
+
+# Set authentication:
+set bt ssp 3 0
+set bt auth * 0000
+reset
+
+# Open a call:
+call {bt_addr} hsp
+
+# Using HFP/HSP with iWrap:
+https://www.silabs.com/Support%20Documents/RegisteredDocs/AN992.pdf
+Section 4 - HSP
